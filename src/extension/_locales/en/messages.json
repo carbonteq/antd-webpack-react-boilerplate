@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Stubhub Demand Explorer",
+    "description": "The name of the react extension."
+  },
+  "appDescription": {
+    "message": "Useful tool which provide information on current demand on stubhub",
+    "description": "The description of the extension."
+  },
+  "btnTooltip": {
+    "message": "Explore Demand",
+    "description": "Tooltip for the button."
+  }
+}

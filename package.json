@@ -1,0 +1,42 @@
+{
+  "name": "antd-react-chrome-ext",
+  "version": "0.0.1",
+  "description": "Useful tool makes developing chrome extensions painless",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --watch --progress --env.production=false",
+    "buildProd": "webpack --env.production"
+  },
+  "author": "carbon-teq",
+  "dependencies": {
+    "antd": "^3.19.7",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webextension-polyfill": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  }
+}

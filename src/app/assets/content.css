@@ -1,0 +1,13 @@
+div.delivery-methods {
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+    padding: 0px 4px 0px 4px;
+    border-radius: 4px;
+    text-align: center;
+    background: #eee;
+}
+
+div.delivery-methods span{
+    vertical-align: middle;
+}
